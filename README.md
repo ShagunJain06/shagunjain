@@ -1,2 +1,0 @@
-# shagunjain
-My portfolio website.
