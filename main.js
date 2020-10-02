@@ -1,0 +1,45 @@
+//Create function to select elements
+const selectElement = (element) => document.querySelector(element);
+//Open and close nav on click
+
+selectElement('.menu-icons').addEventListener('click', () => {
+    selectElement('nav').classList.toggle('active');
+});
+
+// let menuToggler = selectElement('.menu-toggle');
+let body = selectElement('body');
+
+// menuToggler.addEventListener('click', function (){
+//     body.classList.toggle('open');
+// });
+
+// Scroll reveal
+window.sr = ScrollReveal();
+
+sr.reveal('.animate-left', {
+    origin: 'left',
+    duration: 1000,
+    distance: '25rem',
+    delay: 3000
+});
+
+sr.reveal('.animate-right', {
+    origin: 'right',
+    duration: 1000,
+    distance: '25rem',
+    delay: 3600
+});
+
+sr.reveal('.animate-top', {
+    origin: 'top',
+    duration: 1000,
+    distance: '25rem',
+    delay: 3600
+});
+
+sr.reveal('.animate-bottom', {
+    origin: 'bottom',
+    duration: 1000,
+    distance: '25rem',
+    delay: 4200
+});
