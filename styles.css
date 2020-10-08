@@ -354,6 +354,10 @@ nav {
     /* animation-delay: .5s; */
 }
 
+.headline-dark {
+    color: #000;
+}
+
 .big {
     font-size: 4rem;
 }

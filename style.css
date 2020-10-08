@@ -1,0 +1,59 @@
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #201515;
+  position: relative; }
+  body:after {
+    content: "";
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: fixed;
+    z-index: 100;
+    pointer-events: none; }
+
+.angle {
+  cursor: pointer;
+  width: 100%;
+  height: 1000px;
+  margin-bottom: -400px;
+  padding: 0;
+  background-color: #201515;
+  background-size: cover, auto;
+  background-attachment: fixed;
+  background-position: center center;
+  clip-path: polygon(50% 25%, 100% 0%, 100% 50%, 50% 75%, 0% 100%, 0% 50%);
+  transition: all .7s ease-in-out;
+  background-blend-mode: lighten; }
+  .angle.first {
+    clip-path: polygon(50% 0%, 100% 0%, 100% 50%, 50% 75%, 0% 100%, 0% 0%); }
+  .angle.last {
+    clip-path: polygon(50% 25%, 100% 0%, 100% 100%, 50% 100%, 0% 100%, 0% 50%); }
+
+.arrow {
+  clip-path: polygon(50% 25%, 100% 50%, 100% 100%, 50% 75%, 0% 100%, 0% 50%); }
+  .arrow.first {
+    clip-path: polygon(50% 0%, 100% 0%, 100% 100%, 50% 75%, 0% 100%, 0% 0%); }
+  .arrow.last {
+    clip-path: polygon(50% 25%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 50%); }
+
+.one {
+  background-image: url("./redcity.jpeg"); }
+
+.two {
+  background-image: url("./nightsky.jpeg"); }
+
+.three {
+  background-image: url("./cityscape.jpg"); }
+
+.four {
+  background-image: url("./artisticcity.jpeg"); }
+
+.five {
+  background-image: url("./citylights.jpeg"); }
+
+.six {
+  background-image: url("./moderncity.jpeg"); }
+
+/*# sourceMappingURL=style.css.map */
