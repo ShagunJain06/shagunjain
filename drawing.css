@@ -70,7 +70,7 @@ div.gallery ul li {
 	height: 200px;
 	margin: 5px;
 	padding: 5px;
-	z-index: 0;
+    z-index: 0;
 }
 
 /* Make sure z-index is higher on hover */
@@ -84,8 +84,8 @@ div.gallery ul li img {
 	position: absolute;
 	left: 0;
 	top: 0;
-	border: 1px solid black;
-	padding: 5px;
+	/* border: 1px solid black; */
+	/* padding: 5px; */
 	width: 200px;
 	height: 200px;
 	background: black;
