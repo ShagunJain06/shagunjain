@@ -1,13 +1,15 @@
 /* Angled Images */
 
 body {
-  background-color: #201515;
+  /* background-color: #000; */
+  align-items: center;
+  justify-content: center;
 }
 
 #angled {
     display: flex;
     flex-direction: column;
-    background-color: #201515;
+    background-color: #000;
     position: relative; }
     #angled:after {
       content: "";
@@ -25,13 +27,14 @@ body {
     height: 1000px;
     margin-bottom: -400px;
     padding: 0;
-    background-color: #201515;
+    background-color: #000;
     background-size: cover, auto;
     background-attachment: fixed;
     background-position: center center;
     clip-path: polygon(50% 25%, 100% 0%, 100% 50%, 50% 75%, 0% 100%, 0% 50%);
     transition: all .7s ease-in-out;
-    background-blend-mode: lighten; }
+    background-blend-mode: lighten; 
+  }
     .angle.first {
       clip-path: polygon(50% 0%, 100% 0%, 100% 50%, 50% 75%, 0% 100%, 0% 0%); }
     .angle.last {
