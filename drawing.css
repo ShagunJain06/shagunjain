@@ -84,11 +84,11 @@ div.gallery ul li img {
 	position: absolute;
 	left: 0;
 	top: 0;
-	border: 1px solid #dddddd;
+	border: 1px solid black;
 	padding: 5px;
 	width: 200px;
 	height: 200px;
-	background: #f0f0f0;
+	background: black;
 	object-fit: cover;
 }
 
