@@ -60,7 +60,7 @@
 }
 
 .four-images {
-    max-width: 900px;
+    /* max-width: 900px; */
 }
 
 div.gallery ul {
@@ -115,56 +115,56 @@ div.gallery ul li img:hover {
 }
 
 #drawing-image-one {
-    width: 370px;
-    height: 410px;
+    width: 250px;
+    height: 270px;
 }
 
 #drawing-image-two {
-    width: 310px;
-    height: 410px;
+    width: 215px;
+    height: 270px;
 }
 
 #drawing-image-three {
-    width: 310px;
-    height: 410px;
+    width: 215px;
+    height: 270px;
 }
 
 #drawing-image-four {
-    width: 500px;
-    height: 410px;
+    width: 330px;
+    height: 270px;
 }
 
 #drawing-image-one:hover {
-    width: 540px;
-    height: 600px;
-    margin-top: -400px;
-	margin-left: -400px;
+    width: 400px;
+    height: 440px;
+    margin-top: -300px;
+	margin-left: -200px;
 	top: 75%;
 	left: 75%;
 }
 
 #drawing-image-two:hover {
-    width: 520px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     margin-top: -400px;
-	margin-left: -400px;
+	margin-left: -300px;
 	top: 75%;
 	left: 75%;
 }
 
 #drawing-image-three:hover {
-    width: 520px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     margin-top: -400px;
-	margin-left: -400px;
+	margin-left: -300px;
 	top: 75%;
 	left: 75%;
 }
 
 #drawing-image-four:hover {
-    width: 620px;
-    height: 500px;
-    margin-top: -400px;
+    width: 500px;
+    height: 400px;
+    margin-top: -300px;
 	margin-left: -400px;
 	top: 75%;
 	left: 75%;
