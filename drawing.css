@@ -46,9 +46,21 @@
 
 
 
+
+.drawing-series {
+    background-color: white;
+}
 .wrapper {
-	width: 100%;
-	max-width: 1150px;
+    width: 100%;
+    max-width: 1150px;
+    /* position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); */
+}
+
+div.gallery {
+    background-color: lightgreen;
 }
 
 div.gallery ul {
