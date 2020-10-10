@@ -59,8 +59,8 @@
 	transform: translate(-50%, -50%); */
 }
 
-div.gallery {
-    background-color: lightgreen;
+.four-images {
+    max-width: 900px;
 }
 
 div.gallery ul {
@@ -114,6 +114,62 @@ div.gallery ul li img:hover {
 	left: 75%;
 }
 
+#drawing-image-one {
+    width: 370px;
+    height: 410px;
+}
+
+#drawing-image-two {
+    width: 310px;
+    height: 410px;
+}
+
+#drawing-image-three {
+    width: 310px;
+    height: 410px;
+}
+
+#drawing-image-four {
+    width: 500px;
+    height: 410px;
+}
+
+#drawing-image-one:hover {
+    width: 540px;
+    height: 600px;
+    margin-top: -400px;
+	margin-left: -400px;
+	top: 75%;
+	left: 75%;
+}
+
+#drawing-image-two:hover {
+    width: 520px;
+    height: 600px;
+    margin-top: -400px;
+	margin-left: -400px;
+	top: 75%;
+	left: 75%;
+}
+
+#drawing-image-three:hover {
+    width: 520px;
+    height: 600px;
+    margin-top: -400px;
+	margin-left: -400px;
+	top: 75%;
+	left: 75%;
+}
+
+#drawing-image-four:hover {
+    width: 620px;
+    height: 500px;
+    margin-top: -400px;
+	margin-left: -400px;
+	top: 75%;
+	left: 75%;
+}
+
 p.attribution {
 	font-family: 'Consolas';
 	color: #000;
@@ -128,7 +184,7 @@ p.attribution a {
 }
 
 /* Responsive hack */
-@media only screen and (min-width: 499px) and (max-width: 1212px) {
+/* @media only screen and (min-width: 499px) and (max-width: 1212px) {
 	.wrapper {
 		width: 500px;
 	}
@@ -143,4 +199,4 @@ p.attribution a {
 		list-style-type: none;
 		margin: 0;
 	}
-}
+} */
