@@ -134,10 +134,45 @@ div.gallery ul li img:hover {
     height: 270px;
 }
 
+#drawing-image-five {
+    width: 430px;
+    height: 580px;
+}
+
+#drawing-image-six {
+    width: 600px;
+    height: 580px;
+}
+
+#drawing-image-seven {
+    width: 530px;
+    height: 375px;
+}
+
+#drawing-image-eight {
+    width: 500px;
+    height: 375px;
+}
+
+#drawing-image-nine {
+    width: 430px;
+    height: 580px;
+}
+
+#drawing-image-ten {
+    width: 600px;
+    height: 580px;
+}
+
+#drawing-image-main {
+    width: 1040px;
+    height: 750px;
+}
+
 #drawing-image-one:hover {
-    width: 400px;
-    height: 440px;
-    margin-top: -300px;
+    width: 450px;
+    height: 500px;
+    margin-top: -400px;
 	margin-left: -200px;
 	top: 75%;
 	left: 75%;
@@ -168,6 +203,69 @@ div.gallery ul li img:hover {
 	margin-left: -400px;
 	top: 75%;
 	left: 75%;
+}
+
+#drawing-image-five:hover {
+    width: 510px;
+    height: 690px;
+    margin-top: -500px;
+	margin-left: -400px;
+	top: 75%;
+	left: 75%;
+}
+
+#drawing-image-six:hover {
+    width: 800px;
+    height: 580px;
+    margin-top: -435px;
+	margin-left: -600px;
+	top: 75%;
+	left: 75%;
+}
+
+#drawing-image-seven:hover {
+    width: 800px;
+    height: 580px;
+    margin-top: -450px;
+	margin-left: -450px;
+	top: 75%;
+	left: 75%;
+}
+
+#drawing-image-eight:hover {
+    width: 800px;
+    height: 580px;
+    margin-top: -450px;
+	margin-left: -650px;
+	top: 75%;
+	left: 75%;
+}
+
+#drawing-image-nine:hover {
+    width: 510px;
+    height: 690px;
+    margin-top: -500px;
+	margin-left: -400px;
+	top: 75%;
+	left: 75%;
+}
+
+#drawing-image-ten:hover {
+    width: 800px;
+    height: 650px;
+    margin-top: -475px;
+	margin-left: -600px;
+	top: 75%;
+	left: 75%;
+}
+
+#drawing-image-main:hover {
+    width: 1040px;
+    height: 750px;
+    margin-top: 0;
+	margin-left: 0;
+	top: 0;
+	left: 0;
 }
 
 p.attribution {
