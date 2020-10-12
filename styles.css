@@ -535,6 +535,18 @@ nav {
     background-color: var(--main-font-color-dark);
 }
 
+/* Tasteful recipes */
+.tasteful-recipes {
+    background: url("https://www.piet-mondrian.org/images/paintings/gray-tree.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.between {
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+}
+
 
 /* Media queries */
 @media screen and (min-width: 900px) {

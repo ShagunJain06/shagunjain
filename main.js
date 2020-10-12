@@ -57,3 +57,17 @@ sr.reveal('.animate-right-fast', {
     distance: '25rem',
     delay: 600
 });
+
+sr.reveal('.animate-top-fast', {
+    origin: 'top',
+    duration: 1000,
+    distance: '25rem',
+    delay: 600
+});
+
+sr.reveal('.animate-bottom-fast', {
+    origin: 'bottom',
+    duration: 1000,
+    distance: '25rem',
+    delay: 300
+});
