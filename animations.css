@@ -16,7 +16,7 @@ body {
 .intro video {
     height: 100%;
     width: 100%;
-/*     object-fit: cover; */
+    /* object-fit: cover; */
 }
 
 .intro h1 {
@@ -26,4 +26,15 @@ body {
     transform: translate(-50%, -50%);
     font-size: 50px;
     color: #fff;
+}
+
+section {
+    height: 100vh;
+    color: white; 
+}
+
+section h1 {
+    padding-top: 30vh;
+    text-align: center;
+    font-size: 50px;
 }
