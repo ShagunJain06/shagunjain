@@ -3,6 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 .hero-container {
   display: flex;
   width: 100%;
@@ -21,7 +25,7 @@
   outline: 2px solid black;
 }
 
-.box > img {
+.box > a > img {
   width: 200%;
   height: calc(100% - 10vh);
   object-fit: cover;
@@ -40,7 +44,7 @@
 .box:hover {
   flex: 1 1 50%; }
 
-.box:hover > img {
+.box:hover > a > img {
   width: 100%;
   height: 100%; }
 
