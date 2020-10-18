@@ -48,7 +48,7 @@ body {
       clip-path: polygon(50% 25%, 100% 50%, 100% 100%, 50% 100%, 0% 100%, 0% 50%); }
   
   .one {
-    background-image: url("./edit\ 3.jpg"); }
+    background-image: url("./edit3.jpg"); }
   
   .two {
     background-image: url("./DSC_7078_1.jpg"); }
@@ -70,6 +70,38 @@ body {
     padding: 0;
     margin: 0;
     overflow: visible;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  pointer-events: none;
+  z-index: 10000;
+  transition: 0.25s ease-out;
+}
+
+.modal.open {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.full-img {
+  position: absolute;
+  height: 90vh;
+  width: auto;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.5);
+  transition: all 0.25s ease-out;
+}
+
+.full-img.open {
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .container {
